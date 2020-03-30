@@ -39,11 +39,11 @@
               "sourceMap": true,
               "extractCss": true,
               "namedChunks": true,
-              "aot": false,
               "extractLicenses": true,
               "vendorChunk": true,
               "buildOptimizer": false,
-              "commonChunk": true
+              "commonChunk": true,
+              "progress": true
             },
             "production": {
               "budgets": [
@@ -57,10 +57,10 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": true,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": true,
               "buildOptimizer": true,
+              "progress": true,
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",

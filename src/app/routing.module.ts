@@ -22,7 +22,8 @@ const DEMO_APP_ROUTES: Routes = [
 ];
 
 const routeOptions: ExtraOptions = {
-  enableTracing: true
+    enableTracing: true,
+    relativeLinkResolution: 'legacy'
 };
 
 @NgModule({

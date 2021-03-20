@@ -6,7 +6,8 @@ import { AngularFLexLayoutVersionInformationService } from './shared/angular-fle
 // Angular Firebase
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { SDK_VERSION as firebaseSdkVersionInfo } from 'firebase';
+// import { SDK_VERSION as firebaseSdkVersionInfo } from 'firebase';
+
 
 @Component({
   selector: 'demo-root',
@@ -30,7 +31,7 @@ export class AppComponent implements OnInit {
     this.angularVersion = this.ngVersion.versionFull;
     this.materialVersion = this.matVersion.versionFull;
     this.angularFlexVersion = this.ngFlexVersion.versionFull;
-    this._fireBaseSDKVersion = firebaseSdkVersionInfo;
+    this._fireBaseSDKVersion = 'unknown as of March 2021';
   }
 
   public get fireBaseSdkVersion(): string {

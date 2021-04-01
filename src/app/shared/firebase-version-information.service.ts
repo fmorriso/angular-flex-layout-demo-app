@@ -6,7 +6,7 @@ import firebase from 'firebase/app';
   providedIn: 'root'
 })
 export class FirebaseVersionInformationService {
-  public get versionFull(): string{
+  public get versionFull(): string {
     return firebase.SDK_VERSION;
   }
   constructor() { }

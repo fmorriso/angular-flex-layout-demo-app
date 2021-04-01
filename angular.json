@@ -35,14 +35,14 @@
                 }
               ],
               "optimization": false,
-              "outputHashing": "none",
               "sourceMap": true,
               "namedChunks": true,
               "extractLicenses": true,
               "vendorChunk": true,
               "buildOptimizer": false,
               "commonChunk": true,
-              "progress": true
+              "progress": true,
+              "watch": true
             },
             "production": {
               "budgets": [

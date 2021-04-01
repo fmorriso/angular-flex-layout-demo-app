@@ -6,6 +6,7 @@ import { AngularFLexLayoutVersionInformationService } from './shared/angular-fle
 // Angular Firebase
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestore } from '@angular/fire/firestore';
+import { FirebaseVersionInformationService } from './shared/firebase-version-information.service';
 // import { SDK_VERSION as firebaseSdkVersionInfo } from 'firebase';
 
 
@@ -19,22 +20,20 @@ export class AppComponent implements OnInit {
   angularVersion: string;
   materialVersion: string;
   angularFlexVersion: string;
-  private _fireBaseSDKVersion: string;
+  fireBaseSDKVersion: string;
 
   constructor(
     private ngVersion: AngularVersionInformationService,
     private matVersion: MaterialVersionInformationService,
-    private ngFlexVersion: AngularFLexLayoutVersionInformationService
+    private ngFlexVersion: AngularFLexLayoutVersionInformationService,
+    private fbVersion: FirebaseVersionInformationService
   ) {}
 
   ngOnInit(): void {
     this.angularVersion = this.ngVersion.versionFull;
     this.materialVersion = this.matVersion.versionFull;
     this.angularFlexVersion = this.ngFlexVersion.versionFull;
-    this._fireBaseSDKVersion = 'unknown as of March 2021';
+    this.fireBaseSDKVersion = this.fbVersion.versionFull;
   }
 
-  public get fireBaseSdkVersion(): string {
-    return this._fireBaseSDKVersion;
-  }
 }

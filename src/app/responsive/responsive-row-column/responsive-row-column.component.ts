@@ -17,7 +17,7 @@ export class ResponsiveRowColumnComponent implements OnDestroy {
   };
   isVisible = true;
 
-  private activeMQC: MediaChange[];
+  private activeMQC: MediaChange[] = [];
   private subscription: Subscription;
 
   constructor(mediaService: MediaObserver) {

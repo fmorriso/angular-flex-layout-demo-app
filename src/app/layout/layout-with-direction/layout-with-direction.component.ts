@@ -1,3 +1,4 @@
+import { Direction, Directionality } from '@angular/cdk/bidi';
 import {Component} from '@angular/core';
 
 @Component({
@@ -5,7 +6,7 @@ import {Component} from '@angular/core';
   templateUrl: './layout-with-direction.component.html'
 })
 export class LayoutWithDirectionComponent {
-  direction = 'ltr';
+  direction: Direction = 'ltr';
 
   toggleDirection() {
     this.direction = this.direction === 'ltr' ? 'rtl' : 'ltr';

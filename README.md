@@ -56,7 +56,7 @@ IMPORTANT:
    "outputPath": "dist",
    ```
 
-2. Modify `firebase.json` to remove anything after the word `dist`
+1. Modify `firebase.json` to remove anything after the word `dist`
    Example before:
 
    ```typescript
@@ -69,11 +69,15 @@ IMPORTANT:
     "public": "dist",
    ```
 
-3. EXTREMELY IMPORTANT, ESPECIALLY WHEN MOVING PROJECT TO A NEW MACHINE !!!!
+1. EXTREMELY IMPORTANT, ESPECIALLY WHEN MOVING PROJECT TO A NEW MACHINE !!!!
    ```
    firebase use ng-flex-layout-demo-242817
    ```
-4. To deploy:
+1. To reauthorize
+   ```
+   firebase login -reauth
+   ```
+1. To deploy:
    ```
    firebase deploy
    ```

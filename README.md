@@ -6,6 +6,10 @@ It was created in March 2019.
 
 It is loosely based on the [Demo App](https://github.com/angular/flex-layout/tree/master/src/apps/demo-app) provided with Angular Flex Layout.
 
+# Updates
+
+- June 2021 - upgraded to Angular 12.0.4
+
 ## Differences with original Demo App
 
 - I have split out the inline Styles and HTML into separate .scss and .html files.
@@ -39,7 +43,7 @@ const routeOptions: ExtraOptions = {
 
 https://ng-flex-layout-demo-242817.firebaseapp.com
 
-## Firebase Deploy - What Mother Never Told You About Deploying an Angular-CLI 8.x project to Firebase hosting
+## Firebase Deploy - What Mother Never Told You About Deploying an Angular-CLI 12.x project to Firebase hosting
 
 IMPORTANT:
 

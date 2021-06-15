@@ -41,6 +41,7 @@
               ],
               "extractLicenses": true,
               "commonChunk": true,
+              "vendorChunk": true,
               "progress": true,
               "watch": true
             },
@@ -56,6 +57,8 @@
               "sourceMap": false,
               "extractLicenses": true,
               "buildOptimizer": true,
+              "commonChunk": true,
+              "vendorChunk": true,
               "progress": true,
               "fileReplacements": [
                 {

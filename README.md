@@ -9,6 +9,7 @@ It is loosely based on the [Demo App](https://github.com/angular/flex-layout/tre
 # Updates
 
 - June 2021 - upgraded to Angular 12.0.4
+- June 2021 - upgraded to Angular 12.1.0
 
 ## Differences with original Demo App
 

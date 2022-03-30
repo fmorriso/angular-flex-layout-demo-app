@@ -8,8 +8,9 @@ describe('DocsResponsiveComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ DocsResponsiveComponent ]
-    })
+    declarations: [DocsResponsiveComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

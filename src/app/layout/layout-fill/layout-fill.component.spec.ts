@@ -8,8 +8,9 @@ describe('LayoutFillComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LayoutFillComponent ]
-    })
+    declarations: [LayoutFillComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

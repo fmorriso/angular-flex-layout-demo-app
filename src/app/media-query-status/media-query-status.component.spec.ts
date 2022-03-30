@@ -8,8 +8,9 @@ describe('MediaQueryStatusComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ MediaQueryStatusComponent ]
-    })
+    declarations: [MediaQueryStatusComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

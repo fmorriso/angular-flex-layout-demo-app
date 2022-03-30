@@ -6,7 +6,7 @@ describe('FirebaseVersionInformationService', () => {
   let service: FirebaseVersionInformationService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({ teardown: { destroyAfterEach: false } });
     service = TestBed.inject(FirebaseVersionInformationService);
   });
 

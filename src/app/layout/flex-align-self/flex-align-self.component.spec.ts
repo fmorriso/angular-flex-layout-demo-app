@@ -8,8 +8,9 @@ describe('FlexAlignSelfComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ FlexAlignSelfComponent ]
-    })
+    declarations: [FlexAlignSelfComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

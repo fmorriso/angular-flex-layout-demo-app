@@ -8,8 +8,9 @@ describe('DocsLayoutComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ DocsLayoutComponent ]
-    })
+    declarations: [DocsLayoutComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

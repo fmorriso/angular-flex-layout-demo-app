@@ -8,8 +8,9 @@ describe('GridColumnSpanComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ GridColumnSpanComponent ]
-    })
+    declarations: [GridColumnSpanComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

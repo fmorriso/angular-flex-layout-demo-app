@@ -8,8 +8,9 @@ describe('ComplexColumnOrderingComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ComplexColumnOrderingComponent ]
-    })
+    declarations: [ComplexColumnOrderingComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

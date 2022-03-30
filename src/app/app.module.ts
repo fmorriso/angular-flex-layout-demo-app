@@ -7,8 +7,8 @@ import { RoutingModule } from './routing.module';
 import { AppComponent } from './app.component';
 
 // Angular Firebase
-import { AngularFireModule } from '@angular/fire';
-import { AngularFirestore } from '@angular/fire/firestore';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { environment } from '../environments/environment';
 
 import { YBA_BREAKPOINT_PROVIDER } from './stack-overflow/hide-custom-bp/hide-with-custom-bp.component';

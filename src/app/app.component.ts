@@ -5,8 +5,8 @@ import { MaterialVersionInformationService } from './shared/material-version-inf
 import { AngularFLexLayoutVersionInformationService } from './shared/angular-flex-layout-version-information.service';
 import { FirebaseVersionInformationService } from './shared/firebase-version-information.service';
 // Angular Firebase & Firebase
-import { AngularFireModule } from '@angular/fire';
-import { AngularFirestore } from '@angular/fire/firestore';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
 
 @Component({
   selector: 'demo-root',

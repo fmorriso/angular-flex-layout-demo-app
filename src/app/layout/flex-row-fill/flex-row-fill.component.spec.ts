@@ -8,8 +8,9 @@ describe('FlexRowFillComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ FlexRowFillComponent ]
-    })
+    declarations: [FlexRowFillComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

@@ -8,8 +8,9 @@ describe('GridNestedComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ GridNestedComponent ]
-    })
+    declarations: [GridNestedComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

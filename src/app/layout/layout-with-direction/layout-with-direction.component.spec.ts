@@ -8,8 +8,9 @@ describe('LayoutWithDirectionComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LayoutWithDirectionComponent ]
-    })
+    declarations: [LayoutWithDirectionComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

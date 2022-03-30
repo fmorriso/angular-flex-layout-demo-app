@@ -8,8 +8,9 @@ describe('FlexOffsetValuesComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ FlexOffsetValuesComponent ]
-    })
+    declarations: [FlexOffsetValuesComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

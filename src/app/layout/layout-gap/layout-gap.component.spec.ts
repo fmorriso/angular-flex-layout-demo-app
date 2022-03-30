@@ -8,8 +8,9 @@ describe('LayoutGapComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LayoutGapComponent ]
-    })
+    declarations: [LayoutGapComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

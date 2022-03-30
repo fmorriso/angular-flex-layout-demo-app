@@ -8,8 +8,9 @@ describe('ResponsiveRowColumnComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ResponsiveRowColumnComponent ]
-    })
+    declarations: [ResponsiveRowColumnComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

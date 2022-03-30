@@ -8,8 +8,9 @@ describe('ResponsiveFlexDirectiveComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ResponsiveFlexDirectiveComponent ]
-    })
+    declarations: [ResponsiveFlexDirectiveComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

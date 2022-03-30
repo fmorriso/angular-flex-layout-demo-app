@@ -11,6 +11,7 @@ It is loosely based on the [Demo App](https://github.com/angular/flex-layout/tre
 - June 2021 - upgraded to Angular 12.0.4
 - June 2021 - upgraded to Angular 12.1.0
 - July 2021 - upgraded to Angular 12.1.1
+- March 2022 - upgraded to Angular 13.3.1
 
 ## Differences with original Demo App
 

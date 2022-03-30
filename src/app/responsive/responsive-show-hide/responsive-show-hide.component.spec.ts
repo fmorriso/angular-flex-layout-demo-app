@@ -8,8 +8,9 @@ describe('ResponsiveShowHideComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ResponsiveShowHideComponent ]
-    })
+    declarations: [ResponsiveShowHideComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

@@ -8,8 +8,9 @@ describe('GithubIssuesComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ GithubIssuesComponent ]
-    })
+    declarations: [GithubIssuesComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

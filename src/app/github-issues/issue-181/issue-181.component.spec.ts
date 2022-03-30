@@ -8,8 +8,9 @@ describe('Issue181Component', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ Issue181Component ]
-    })
+    declarations: [Issue181Component],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

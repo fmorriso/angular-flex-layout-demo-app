@@ -8,8 +8,9 @@ describe('StackOverflowComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ StackOverflowComponent ]
-    })
+    declarations: [StackOverflowComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 

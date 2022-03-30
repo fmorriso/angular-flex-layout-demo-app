@@ -96,3 +96,9 @@ https://ng-flex-layout-demo-242817.web.app/
 or
 
 https://ng-flex-layout-demo-242817.firebaseapp.com/
+
+# AngularFire upgrade notes
+
+- [Upgrading to AngularFirel 7.0](https://github.com/angular/angularfire/blob/master/docs/version-7-upgrade.md)
+- compat mode operates using AngularFilre V6 API
+- As of March 2022 there is a warning that the new V7 API is not **feature complete**

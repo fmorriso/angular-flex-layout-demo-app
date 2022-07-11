@@ -41,7 +41,7 @@ const routeOptions: ExtraOptions = {
 - [Angular Flex WiKi](https://github.com/angular/flex-layout/wiki)
 - [Online Demos](https://tburleson-layouts-demos.firebaseapp.com/)
 - [Demo Source Code this repository is based upon](https://github.com/angular/flex-layout/tree/master/projects/apps/demo-app/src)
-- [Article: Angular In Depth - Angular Flex-Layout](https://blog.angularindepth.com/angular-flex-layout-flexbox-and-grid-layout-for-angular-component-6e7c24457b63)
+- [Article: Angular In Depth - Angular Flex-Layout](https://indepth.dev/posts/1208/angular-flex-layout-flexbox-and-grid-layout-for-angular-component)
 
 ## Firebase
 
